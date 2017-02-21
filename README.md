@@ -8,13 +8,13 @@ This repository represents our starting point(s) for creating JavaScript applica
 
 > Only contains this documentation.
 
-See [/master](tree/master).
+See [/master](../../tree/master).
 
 ## ES6+ and rollup.js
 
 > Provides a plain [component-orientated] [ES6+] «[vanilla]» script environment which gets assembled with [rollup.js].
 
-See [/es6-rollup](tree/es6-rollup).
+See [/es6-rollup](../../tree/es6-rollup).
 
 [component-orientated]: http://exploringjs.com/es6/ch_modules.html
 [vanilla]: https://stackoverflow.com/questions/20435653/what-is-vanillajs
