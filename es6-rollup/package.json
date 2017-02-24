@@ -1,0 +1,18 @@
+{
+  "name": "@gridonic/js",
+  "version": "0.1.0",
+  "description": "ES6+ and rollup.js",
+  "main": "App.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "npm run build -- > /dev/null && echo ✔︎  OK"
+  },
+  "author": "Gridonic <hello@gridonic.ch>",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.41.4",
+    "rollup-plugin-jst": "^1.0.1",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  },
+  "dependencies": {}
+}

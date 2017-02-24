@@ -1,0 +1,21 @@
+{
+  "name": "@gridonic/js",
+  "version": "1.0.0",
+  "description": "Our JavaScript foundation.",
+  "author": "Gridonic <hello@gridonic.ch>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gridonic/js.git"
+  },
+  "keywords": [
+    "js",
+    "boilerplate"
+  ],
+  "bugs": {
+    "url": "https://github.com/gridonic/js/issues"
+  },
+  "homepage": "https://github.com/gridonic/js#readme"
+}
