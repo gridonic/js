@@ -1,3 +1,5 @@
+<p align="center"><img src="https://cdn.rawgit.com/voodootikigod/logo.js/1544bdee/js.svg" alt="JavaScript" width="128"></p>
+
 # JavaScript foundation
 
 This repository represents our starting point(s) for creating JavaScript applications. Each folder holds its own specific setup.
