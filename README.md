@@ -10,10 +10,22 @@ This repository represents our starting point(s) for creating JavaScript applica
 
 See [/es6-rollup](./es6-rollup).
 
+## ES6+ and Vue.js and webpack
+
+> Provides a [Vue.js] application foundation which is focused on [asynchronous] loading of components, [scoped styles] and “[separation of concerns]”. This is mostly achieved with [code-splitting] by [webpack].
+
+See [/es6-vue-webpack](./es6-vue-webpack).
+
 [component-orientated]: http://exploringjs.com/es6/ch_modules.html
 [vanilla]: https://stackoverflow.com/questions/20435653/what-is-vanillajs
 [rollup.js]: http://rollupjs.org/
 [ES6+]: https://kangax.github.io/compat-table/es6/
+[code-splitting]: https://webpack.js.org/guides/code-splitting/#on-demand-code-splitting
+[webpack]: https://webpack.js.org/
+[Vue.js]: https://vuejs.org/
+[asynchronous]: https://vuejs.org/v2/guide/components.html#Async-Components
+[separation of concerns]: https://vuejs.org/v2/guide/single-file-components.html#What-About-Separation-of-Concerns
+[scoped styles]: https://vue-loader.vuejs.org/en/features/scoped-css.html
 
 #  
 <p align="center">
