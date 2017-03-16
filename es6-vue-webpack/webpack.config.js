@@ -1,7 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 
-const outputPath = path.resolve(__dirname, './built/assets');
+const outputPath = path.resolve(__dirname, './build/assets');
 const publicPath = 'assets/';
 
 module.exports = {
@@ -53,7 +53,7 @@ module.exports = {
     devServer: {
         historyApiFallback: true,
         noInfo: true,
-        contentBase: path.resolve(__dirname, './built')
+        contentBase: path.resolve(__dirname, './build')
     },
     performance: {
         hints: false
