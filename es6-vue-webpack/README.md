@@ -1,4 +1,4 @@
-<p align="center"><img src="https://coligo.io/images/vue.svg" alt="webpack" height="128"><img src="https://www.brandeps.com/icon-download/P/Plus-01.svg" width="64"><img src="https://webpack.js.org/6bc5d8cf78d442a984e70195db059b69.svg" alt="webpack" height="160"></p>
+<p align="center"><img src="http://svgshare.com/i/z5.svg" alt="Vue.js and webpack" height="128"></p>
 
 # ES6+ and Vue.js and webpack
 
