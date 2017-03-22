@@ -4,6 +4,6 @@ export default class HelloWord {
     constructor({
         name = 'Bob'
     } = {}) {
-        console.log(IndexTemplate({ name }));
+        document.write(IndexTemplate({ name }));
     }
 }

@@ -5,6 +5,7 @@
   "main": "App.js",
   "scripts": {
     "build": "rollup -c",
+    "build:prod": "rollup -c",
     "test": "npm run build -- > /dev/null && echo ✔︎  OK"
   },
   "author": "Gridonic <hello@gridonic.ch>",

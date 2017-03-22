@@ -2,9 +2,9 @@ import nodeResolve from 'rollup-plugin-node-resolve';
 import jst from 'rollup-plugin-jst';
 
 export default {
-    entry: 'App.js',
+    entry: 'src/App.js',
     format: 'iife',
-    dest: 'build/App.js',
+    dest: 'build/app.js',
     plugins: [
         jst({
             // By default, all .html, .jst, .ejs files are compiled

@@ -1,4 +1,4 @@
-<p align="center"><img src="http://svgshare.com/i/z5.svg" alt="Vue.js and webpack" height="128"></p>
+<p align="center"><img src="https://gridonic.github.io/assets/images/logos/vue-webpack.svg" height="128"></p>
 
 # ES6+ and Vue.js and webpack
 

@@ -1,15 +1,15 @@
 const path = require('path')
 const webpack = require('webpack')
 
-const outputPath = path.resolve(__dirname, './build/assets');
-const publicPath = 'assets/';
+const outputPath = path.resolve(__dirname, './build');
+const publicPath = './build/';
 
 module.exports = {
     entry: './src/main.js',
     output: {
         path: outputPath,
         publicPath,
-        filename: 'App.js'
+        filename: 'app.js'
     },
     module: {
         rules: [
