@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.rawgit.com/voodootikigod/logo.js/1544bdee/js.svg" alt="JavaScript" width="128"></p>
+<p align="center"><img src="https://gridonic.github.io/assets/images/logos/js.svg" alt="JavaScript" width="128"></p>
 
 # JavaScript foundation
 
