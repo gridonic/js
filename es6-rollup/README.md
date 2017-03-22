@@ -1,4 +1,4 @@
-<p align="center"><img src="https://pbs.twimg.com/profile_images/774234430936379392/ZqN8D2Ub.jpg" alt="Rollup.js" width="128"></p>
+<p align="center"><img src="https://gridonic.github.io/assets/images/logos/rollupjs.svg" alt="Rollup.js" width="160"></p>
 
 # ES6+ and rollup.js
 
