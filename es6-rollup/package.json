@@ -2,7 +2,6 @@
   "name": "@gridonic/js",
   "version": "0.1.0",
   "description": "ES6+ and rollup.js",
-  "main": "App.js",
   "scripts": {
     "build": "rollup -c",
     "build:prod": "rollup -c",
