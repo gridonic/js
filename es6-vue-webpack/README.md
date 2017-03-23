@@ -2,7 +2,7 @@
 
 # ES6+ and Vue.js and webpack
 
-This setup is using [webpack] as module bundler and comes with [Vue.js] as the underlying framework which brings…
+This setup uses [webpack] as the module bundler, [Babel] for transpiling and comes with [Vue.js] as the underlying framework which brings…
 
 - [Asynchronous] loading of components
 - [Code-splitting] to serve only needed files
@@ -30,6 +30,7 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 [Vue.js]: https://vuejs.org/
 [asynchronous]: https://vuejs.org/v2/guide/components.html#Async-Components
 [scoped css]: https://vue-loader.vuejs.org/en/features/scoped-css.html
+[Babel]: https://babeljs.io/
 
 ##  
 <p align="center">

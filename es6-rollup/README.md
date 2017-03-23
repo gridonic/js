@@ -2,11 +2,7 @@
 
 # ES6+ and rollup.js
 
-This setup is using [rollup.js] as module bundler. One of the big benefits of rollup – as of the time of writing this – is the so called [tree-shaking].
-
-- Example code is component based
-- No frameworks added
-- Starting at zero
+This setup uses [rollup.js] as the module bundler and *does not* transpile ES6+ code. One of the big benefits of rollup – as of the time of writing this – is the so called [tree-shaking].
 
 Have fun! ✌️
 
