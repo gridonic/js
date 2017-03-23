@@ -2,9 +2,13 @@
   "name": "@gridonic/js",
   "version": "1.0.0",
   "description": "ES6+ and Browserify",
+  "config": {
+    "browserify": "./src/App.js -o build/app.js -t [ babelify --presets [ es2015 ] ] -t [ browserify-ejs ] -t [ browserify-shim ] -t [ deamdify ]"
+  },
   "scripts": {
-    "build": "browserify ./src/App.js -o build/app.js -t [ babelify --presets [ es2015 ] ] -t [ browserify-ejs ] -t [ browserify-shim ] -t [ deamdify ]",
+    "build": "browserify $npm_package_config_browserify",
     "build:prod": "npm run build && uglifyjs --compress --mangle -o ./build/app.js -- ./build/app.js",
+    "watch": "watchify $npm_package_config_browserify --verbose",
     "test": "npm run build -- > /dev/null && echo ✔︎  OK"
   },
   "author": "Gridonic <hello@gridonic.ch>",
@@ -16,7 +20,8 @@
     "browserify-ejs": "^0.0.2",
     "browserify-shim": "^3.8.13",
     "deamdify": "^0.3.0",
-    "uglify-js": "^2.8.15"
+    "uglify-js": "^2.8.15",
+    "watchify": "^3.9.0"
   },
   "dependencies": {},
   "browser": {},
