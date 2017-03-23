@@ -1,0 +1,25 @@
+{
+  "name": "@gridonic/js",
+  "version": "0.1.0",
+  "description": "ES6+ and Browserify",
+  "scripts": {
+    "build": "browserify ./src/App.js -o build/app.js -t [ babelify --presets [ es2015 ] ] -t [ browserify-ejs ] -t [ browserify-shim ] -t [ deamdify ]",
+    "build:prod": "npm run build && uglifyjs --compress --mangle -o ./build/app.js -- ./build/app.js",
+    "test": "npm run build -- > /dev/null && echo ✔︎  OK"
+  },
+  "author": "Gridonic <hello@gridonic.ch>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
+    "browserify-ejs": "^0.0.2",
+    "browserify-shim": "^3.8.13",
+    "deamdify": "^0.3.0",
+    "uglify-js": "^2.8.15"
+  },
+  "dependencies": {},
+  "browser": {},
+  "browserify-shim": {},
+  "private": true
+}
