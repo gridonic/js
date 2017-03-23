@@ -5,6 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "build:prod": "rollup -c",
+    "watch": "rollup -c --watch",
     "test": "npm run build -- > /dev/null && echo ✔︎  OK"
   },
   "author": "Gridonic <hello@gridonic.ch>",
@@ -12,7 +13,8 @@
   "devDependencies": {
     "rollup": "^0.41.4",
     "rollup-plugin-jst": "^1.0.1",
-    "rollup-plugin-node-resolve": "^2.0.0"
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-watch": "^3.2.2"
   },
   "dependencies": {},
   "private": true
