@@ -1,6 +1,6 @@
 {
   "name": "@gridonic/js",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ES6+ and Browserify",
   "scripts": {
     "build": "browserify ./src/App.js -o build/app.js -t [ babelify --presets [ es2015 ] ] -t [ browserify-ejs ] -t [ browserify-shim ] -t [ deamdify ]",
