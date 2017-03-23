@@ -11,8 +11,12 @@
     "url": "git+https://github.com/gridonic/js.git"
   },
   "keywords": [
-    "js",
-    "boilerplate"
+    "javascript",
+    "boilerplate",
+    "recipes",
+    "starting-point",
+    "gridonic",
+    "foundation"
   ],
   "bugs": {
     "url": "https://github.com/gridonic/js/issues"
