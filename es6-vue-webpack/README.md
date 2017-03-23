@@ -14,13 +14,19 @@ Have fun! ✌️
 
 ``` bash
 # install dependencies
-npm install
+yarn
+
+# build for development
+npm run build
+
+# build for production
+npm run build:prod
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm run watch
 
-# build for production with minification
-npm run build
+# tests if the javascript files would build without errors
+npm test
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).

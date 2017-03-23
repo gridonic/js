@@ -11,6 +11,25 @@ Furthermore the following transforms are enabled:
 
 Have fun! ✌️
 
+## Build setup
+
+``` bash
+# install dependencies
+yarn
+
+# build for development
+npm run build
+
+# build for production
+npm run build:prod
+
+# watches the javascript files for changes and builds them automatically
+npm run watch
+
+# tests if the javascript files would build without errors
+npm test
+```
+
 [Browserify]: http://browserify.org/
 [Babel]: https://babeljs.io/
 [UglifyJS]: https://github.com/mishoo/UglifyJS2

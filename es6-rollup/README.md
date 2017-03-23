@@ -6,6 +6,25 @@ This setup uses [rollup.js] as the module bundler and *does not* transpile ES6+ 
 
 Have fun! ✌️
 
+## Build setup
+
+``` bash
+# install dependencies
+yarn
+
+# build for development
+npm run build
+
+# build for production
+npm run build:prod
+
+# watches the javascript files for changes and builds them automatically
+npm run watch
+
+# tests if the javascript files would build without errors
+npm test
+```
+
 [rollup.js]: http://rollupjs.org/
 [tree-shaking]: http://www.google.com/search?q=tree+shaking
 
