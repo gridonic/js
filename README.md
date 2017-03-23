@@ -6,15 +6,21 @@ This repository represents our starting point(s) for creating JavaScript applica
 
 *See below for an overview of setups.*
 
+## ES6+ and Browserify
+
+> Provides a plain [component-orientated] *transpiled* [ES6+] «[vanilla]» script environment which gets assembled with [Browserify].
+
+See [/es6-browserify](./es6-browserify).
+
 ## ES6+ and rollup.js
 
-> Provides a plain [component-orientated] [ES6+] «[vanilla]» script environment which gets assembled with [rollup.js].
+> Provides a plain [component-orientated] *non-transpiled* [ES6+] «[vanilla]» script environment which gets assembled with [rollup.js].
 
 See [/es6-rollup](./es6-rollup).
 
 ## ES6+ and Vue.js and webpack
 
-> Provides a [Vue.js] application foundation which is focused on [asynchronous] loading of components, [scoped styles] and “[separation of concerns]”. This is mostly achieved with [code-splitting] by [webpack].
+> Provides a [Vue.js] application foundation ([ES6+] *transpiled*) which is focused on [asynchronous] loading of components, [scoped styles] and “[separation of concerns]”. This is mostly achieved with [code-splitting] by [webpack].
 
 See [/es6-vue-webpack](./es6-vue-webpack).
 
@@ -28,6 +34,7 @@ See [/es6-vue-webpack](./es6-vue-webpack).
 [asynchronous]: https://vuejs.org/v2/guide/components.html#Async-Components
 [separation of concerns]: https://vuejs.org/v2/guide/single-file-components.html#What-About-Separation-of-Concerns
 [scoped styles]: https://vue-loader.vuejs.org/en/features/scoped-css.html
+[Browserify]: http://browserify.org/
 
 #  
 <p align="center">
