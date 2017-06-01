@@ -14,7 +14,7 @@ Have fun! ✌️
 
 ``` bash
 # install dependencies
-yarn
+npm install
 
 # build for development
 npm run build
@@ -26,7 +26,7 @@ npm run build:prod
 npm run watch
 
 # tests if the javascript files would build without errors
-npm test
+npm run test
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
