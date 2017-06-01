@@ -8,6 +8,32 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const dest = 'build';
 const isProd = process.env.NODE_ENV === 'production';
 
+const sassLoaders = [
+
+    // @see https://github.com/webpack-contrib/css-loader
+    {
+        loader: 'css-loader',
+        options: {
+            minimize: isProd
+        }
+    },
+
+    // @see https://github.com/postcss/postcss-loader
+    { loader: 'postcss-loader' },
+
+    // @see https://github.com/webpack-contrib/sass-loader
+    { loader: 'sass-loader' },
+
+    // @see https://github.com/shakacode/sass-resources-loader
+    // {
+    //     loader: 'sass-resources-loader',
+    //     options: {
+    //         resources: path.resolve(__dirname, 'path/to/_global.scss')
+    //     }
+    // }
+
+];
+
 module.exports = {
 
     // @see https://webpack.js.org/configuration/entry-context/#entry
@@ -46,13 +72,12 @@ module.exports = {
                 test: /\.vue$/,
                 loader: 'vue-loader',
                 options: {
-                    extractCSS: isProd,
-                    preserveWhitespace: false,
-                    postcss: [
-                        require('autoprefixer')({
-                            browsers: ['last 3 versions']
-                        })
-                    ]
+                    loaders: {
+                        scss: isProd ? ExtractTextPlugin.extract({
+                            use: sassLoaders,
+                            fallback: 'vue-style-loader'
+                        }) : ['vue-style-loader'].concat(sassLoaders)
+                    }
                 }
             },
             {
@@ -64,13 +89,6 @@ module.exports = {
                         'env'
                     ]
                 }
-            },
-            {
-                test: /\.css$/,
-                use: isProd ? ExtractTextPlugin.extract({
-                    use: 'css-loader?minimize',
-                    fallback: 'vue-style-loader'
-                }) : ['vue-style-loader', 'css-loader']
             },
             {
                 test: /\.(png|jpg|gif|svg)$/,
@@ -158,7 +176,8 @@ module.exports = {
         //     compress: { warnings: false }
         // }),
         new ExtractTextPlugin({
-            filename: 'common.[chunkhash].css'
+            filename: 'styles.css',
+            allChunks: true
         })
     ] : [
         new FriendlyErrorsPlugin()
