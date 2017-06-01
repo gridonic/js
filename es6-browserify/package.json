@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ES6+ and Browserify",
   "config": {
-    "browserify": "./src/App.js -o build/app.js -t [ babelify --presets [ es2015 ] ] -t [ browserify-ejs-tran ] -t [ browserify-shim ] -t [ deamdify ]"
+    "browserify": "./src/App.js -o build/app.js -t [ babelify --presets [ env ] ] -t [ browserify-ejs-tran ] -t [ browserify-shim ] -t [ deamdify ]"
   },
   "scripts": {
     "build": "browserify $npm_package_config_browserify",
@@ -14,7 +14,7 @@
   "author": "Gridonic <hello@gridonic.ch>",
   "license": "MIT",
   "devDependencies": {
-    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-env": "^1.5.1",
     "babelify": "^7.3.0",
     "browserify": "^14.1.0",
     "browserify-ejs-tran": "^1.0.1",
