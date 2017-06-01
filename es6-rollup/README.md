@@ -10,7 +10,7 @@ Have fun! ✌️
 
 ``` bash
 # install dependencies
-yarn
+npm install
 
 # build for development
 npm run build
@@ -22,7 +22,7 @@ npm run build:prod
 npm run watch
 
 # tests if the javascript files would build without errors
-npm test
+npm run test
 ```
 
 [rollup.js]: http://rollupjs.org/
