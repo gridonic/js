@@ -86,7 +86,9 @@ module.exports = {
                 exclude: /node_modules/,
                 options: {
                     presets: [
-                        'env'
+                        ['env', {
+                            debug: true
+                        }]
                     ]
                 }
             },

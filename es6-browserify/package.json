@@ -33,7 +33,9 @@
         "babelify",
         {
           "presets": [
-            "env"
+            ["env", {
+              "debug": true
+            }]
           ]
         }
       ],
